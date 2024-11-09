@@ -52,5 +52,6 @@ app.use(express.json())
 
 //queries
 app.get("/queries", (req, res) => {
+    //http://localhost:3000/queries?name=test
     console.log(req.query.name)
 })
