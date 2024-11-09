@@ -1,0 +1,20 @@
+{
+  "name": "expressjsdemo",
+  "version": "1.0.0",
+  "description": "1) install node\r     winget install Schniz.fnm\r     fnm env --use-on-cd | Out-String | Invoke-Expression\r     fnm use --install-if-missing 22",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "nodemon": "^3.1.7"
+  }
+}
